@@ -1,0 +1,25 @@
+{
+  "name": "caor-checker",
+  "version": "1.0.0",
+  "description": "數值檢查外掛",
+  "author": "Caro.Huang <carozozo@yahoo.com.tw>",
+  "engines": {
+    "node": "16.15.1"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carozozo/caro-checker"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --timeout 5000 test.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "mocha": "^10.0.0"
+  }
+}
